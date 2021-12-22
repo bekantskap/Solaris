@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Solaris|Home</title>
+  </head>
+  <body>
+    <header>
+      <i id="astronaut-link" class="fas fa-user-astronaut"></i>
+
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2 class="spaceman-header">Astronauter i rymden just nu</h2>
+          <ul class="spaceman-list"></ul>
+        </div>
+      </div>
+      <nav class="links">
+        <ul>
+          <li><a href="index.html">HEM</a></li>
+          <li><a href="list.html" id="listLink">LISTA</a></li>
+          <li><a id="random" href="#">SLUMPA</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="welcome-container">
+        <h1 class="welcome-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
+          reiciendis dignissimos laudantium vero ipsum porro expedita magnam
+          commodi molestias alias? Ex velit hic id, temporibus aperiam quas
+          eligendi quos quis?
+        </h1>
+      </div>
+      <div class="search-container">
+        <ul class="search-results"></ul>
+        <div class="search-box">
+          <i id="shuttle-icon-mirror" class="fas fa-space-shuttle"></i>
+          <input
+            id="search-input"
+            type="text"
+            name="search"
+            placeholder="SÖK"
+          />
+          <i id="shuttle-icon" class="fas fa-space-shuttle"></i>
+        </div>
+        <h3 id="search-error"></h3>
+      </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="search.js"></script>
+  </body>
+</html>

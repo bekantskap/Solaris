@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Solaris|Home</title>
+  </head>
+  <body onload="loadData();">
+    <header>
+      <i id="astronaut-link" class="fas fa-user-astronaut"></i>
+
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2 class="spaceman-header">Astronauter i rymden just nu</h2>
+          <ul class="spaceman-list"></ul>
+        </div>
+      </div>
+
+      <img id="sun" src=" img/burning-sun.png" />
+      <nav class="links">
+        <ul>
+          <li><a href="index.html">HEM</a></li>
+          <li><a href="list.html" id="listLink">LISTA</a></li>
+          <li><a id="random" href="#">SLUMPA</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="main-planets">
+        <ul class="planets-container">
+          <li class="planet" id="mercury">
+            <img src="img/Mercury-PNG-Images-HD.png" />
+          </li>
+          <li class="planet" id="venus">
+            <img src="img/Venus-PNG-Background.png" />
+          </li>
+          <li class="planet" id="saturn">
+            <img src="img/saturn.png" />
+          </li>
+          <li class="planet" id="jupiter">
+            <img src="img/Jupiter-PNG-Free-Download.png" />
+          </li>
+          <li class="planet" id="earth">
+            <img src="img/earth.png" />
+          </li>
+          <li class="planet" id="mars">
+            <img src="img/NicePng_planet-png_1788418.png" />
+          </li>
+          <li class="planet" id="uranus">
+            <img src="img/uranus.png" />
+          </li>
+          <li class="planet" id="neptune">
+            <img src="img/neptune.png" />
+          </li>
+        </ul>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
